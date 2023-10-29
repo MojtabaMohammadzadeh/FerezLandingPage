@@ -1,0 +1,66 @@
+
+
+.TeamContainer {
+    
+    margin: 24px;
+      
+    padding: auto;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .TeamContainer{
+        
+    }
+  }
+
+
+  @media (min-width: 769px) {
+    .TeamContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .TeamContainer p{
+        text-align: center;
+    }
+
+    .TeamCartsContainer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+        justify-content: center;
+        align-items: center;
+    }
+
+    .TeamCarts{
+        margin: 8px;
+        width: 40vw;
+        height: 40vh;
+        background-color: burlywood;
+        border-radius: 15px;
+        box-shadow: 1px 1px 3px 3px rgba(35, 36, 36, 0.2);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .TeamCartsImage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .TeamCartsContent{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
+  }

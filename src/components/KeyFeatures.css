@@ -1,0 +1,130 @@
+
+
+
+.KeyContainer {
+    
+    margin: 0;
+    margin-bottom: 16px; 
+    box-sizing: border-box;
+    padding: auto;
+  }
+
+
+  @media (max-width: 768px) {
+    .KeyContainer {
+      height: 150vh; /* Set height to 200% of the viewport height for mobile mode */
+        display: flex;
+        flex-direction: column;
+            
+    }
+  }
+
+  @media (min-width: 769px) {
+
+    .KeyContainer {
+        height: 140vh; /* Set height to 200% of the viewport height for mobile mode */
+        display: flex;
+        flex-direction: column;
+
+      }
+
+    .TopSection{
+      height: 80vh;
+      
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .BottomSection{
+      margin: 0;
+      margin-top: 24px;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .BootomBox{
+      margin: 8px;
+      width: 30%;
+      height: 50vh;
+      
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .BottomPic{
+    height: 30vh;
+    margin-bottom: 18px;
+    object-fit: fill;
+    }
+
+    .BootomBoxTitle{
+      font-size: 1.2rem;
+      font-family: 'HelveticaLight';
+      margin: 0;
+    }
+    .BootomBoxContent{
+      text-align: center;
+      font-size: 0.8rem;
+      font-family: 'HelveticaLight';
+      width: 80%;
+    }
+
+    .KeyFeaturesContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+    }
+
+    .ListTiles{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    .ListTilesText{
+        margin: 0;
+        padding-left: 8px;
+        font-family: 'HelveticaLight';
+        font-size: 0.9rem;
+    }
+    .keyFeaturesPic{
+      height: 90%;
+      width: 80%;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .keyFeaturesPic img{
+      object-fit: fill;
+      width: 80%;
+      height: 100%;
+
+
+    }
+
+    .KeyTitle{
+      font-size: 1rem;
+      color: gray;
+      font-family: 'HelveticaLight';
+      margin: 0;
+    }
+
+    .KeySubTitle{
+      margin: 0;
+      font-size: 1.6rem;
+      color: black;
+      font-family: 'HelveticaBold';
+    }
+    
+  }
+
