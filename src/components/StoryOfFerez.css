@@ -11,4 +11,164 @@
 }
 
 
+@media (max-width: 768px) {
+    .StoryTitle{
+        font-size: 1rem;
+        color: #454343;
+        font-family: 'HelveticaLight';
+        
+        margin-bottom: 24px;
+    }
+    .StorySubTitle{
+        font-size: 1.5rem;
+        color: #1F2D79;
+        font-family: 'HelveticaBold';
+        margin-bottom: 18px;
+    }
+    .StroyContent{
+        padding-left: 20vw;
+        padding-right: 20vw;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .StoryCartsList{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 80vw;
+        align-items:center ;
+        /* 
+        height: 15vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: #fefefe;
+        border-radius: 10px;
+        box-shadow: 2px 1px 3px 2px #2929294b;
+        
+        */
+    }
+    .StroyCartTitle{
+        font-size: 1.5rem;
+        font-family: 'HelveticaBold';
+        margin: 0;
+        margin-bottom: 14px;
+        
+    }
+    .StoryCart{
+        cursor: pointer;
+        height: 15vh;
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fefefe;
+        box-shadow: 2px 1px 3px 2px #2929294b;
+        align-items:center ;
+        transition: all ease-out 0.2s;
+    }
+    .StoryCart p{
+        color: #1F2D79;
+    }
+    .StroyCartContent{
+        
+        margin: 0;
+        font-size: 0.85rem;
+        
+        
+    }
+    .StorySelectedBox{
+        background-color: #F25A2A;
+        color:#fbf8cd ;
+        height: 20vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all ease-in-out 0.2s;
+    }
+   
+  }
 
+
+  @media (min-width: 769px) {
+
+    .StoryTitle{
+        font-size: 1rem;
+        color: #454343;
+        font-family: 'HelveticaLight';
+        
+        margin-bottom: 24px;
+    }
+    .StorySubTitle{
+        font-size: 1.5rem;
+        color: #1F2D79;
+        font-family: 'HelveticaBold';
+        margin-bottom: 18px;
+    }
+    .StroyContent{
+        padding-left: 20vw;
+        padding-right: 20vw;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .StoryCartsList{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        border-radius: 10px;
+        width: 80vw;
+        align-items:center ;
+        /* 
+        height: 15vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: #fefefe;
+        border-radius: 10px;
+        box-shadow: 2px 1px 3px 2px #2929294b;
+        
+        */
+    }
+    .StroyCartTitle{
+        font-size: 1.5rem;
+        font-family: 'HelveticaBold';
+        margin: 0;
+        margin-bottom: 14px;
+        
+    }
+    .StoryCart{
+        cursor: pointer;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fefefe;
+        box-shadow: 2px 1px 3px 2px #2929294b;
+        align-items:center ;
+        transition: all ease-out 0.2s;
+    }
+    .StoryCart p{
+        color: #1F2D79;
+    }
+    .StroyCartContent{
+        
+        margin: 0;
+        font-size: 0.85rem;
+        
+        
+    }
+    .StorySelectedBox{
+        background-color: #F25A2A;
+        color:#fbf8cd ;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all ease-in-out 0.2s;
+    }
+
+  }

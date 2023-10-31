@@ -12,11 +12,98 @@
 
   @media (max-width: 768px) {
     .KeyContainer {
-      height: 150vh; /* Set height to 200% of the viewport height for mobile mode */
+      /* Set height to 200% of the viewport height for mobile mode */
         display: flex;
         flex-direction: column;
-            
+            height: 220vh;
     }
+
+    .TopSection{
+      height: 100vh;
+      display: grid;
+      grid-template-columns:1fr;
+      grid-template-rows: 0.5fr 1fr;
+
+    }
+
+    .keyFeaturesPic{
+      height: 90%;
+      
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .keyFeaturesPic img{
+      object-fit: fill;
+      width: 80%;
+      height: 100%;
+
+
+    }
+
+    .KeyFeaturesContent{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+
+  }
+
+  .ListTiles{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-bottom: 16px;
+  }
+
+  .ListTilesText{
+      margin: 0;
+      padding-left: 8px;
+      font-family: 'HelveticaLight';
+      font-size: 0.9rem;
+  }
+
+  .BottomSection{
+    margin: 0;
+    margin-top: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .BootomBox{
+    margin: 8px;
+    
+    height: 40vh;
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .BottomPic{
+  height: 20vh;
+  margin-bottom: 18px;
+  object-fit: fill;
+  }
+
+  .BootomBoxTitle{
+    font-size: 1.2rem;
+    font-family: 'HelveticaLight';
+    margin: 0;
+  }
+  .BootomBoxContent{
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: 'HelveticaLight';
+    width: 80%;
+  }
   }
 
   @media (min-width: 769px) {

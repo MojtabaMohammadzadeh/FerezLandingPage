@@ -1,4 +1,45 @@
 body{
-  width: 95vw;
   background-color: #E8EDF5;
+  overflow-x: hidden;
+}
+
+.AppContainer{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.TabBar{
+  display: flex;
+  justify-content: space-around;
+  background-color: #333; /* Customize as needed */
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  color: #fff;
+
+}
+.TabBar button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.TabBar button.active {
+  
+   /* Change the background color */
+  color: #ed643a;
+  font-size: 1rem;
+  font-family: 'helveticaBold';
+  background-color: #E8EDF5;
+  padding: 10px 30px;
+  transition: all ease-in-out 0.2s;
+  
+   /* Change the text color */
 }

@@ -1,0 +1,36 @@
+
+
+
+.ContactUsContainer {
+    
+    margin: 24px;
+    
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: auto;
+  }
+
+
+
+  
+  /* Media query for mobile devices (max-width: 768px) */
+  @media (max-width: 768px) {
+    .ContactUsContainer {
+      height: 160vh; /* Set height to 200% of the viewport height for mobile mode */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 1fr;    
+    }
+  }
+  
+  /* Media query for desktop devices (min-width: 769px) */
+  @media (min-width: 769px) {
+    .ContactUsContainer {
+      width: 80vw; /* Set width to 100% of the viewport width for desktop mode */
+      height: 80vh; /* Set height to 100% of the viewport height for desktop mode */
+      display: grid;
+      
+      grid-template-columns: 1fr 1fr;
+    }
+
+}

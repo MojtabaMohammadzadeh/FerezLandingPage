@@ -2,13 +2,13 @@
 import React from 'react'
 import './HowItImprove.css'
 import {AiFillCheckCircle} from 'react-icons/ai';
-
+import Phone4 from '../assets/phone4.png';
 export const HowItImprove = () => {
   return (
     <div className='HTIContainer'>
     
     <div className='HTIImageContainer'>
-        {/* <img src={MainPic} alt="mainPic" className='imageClass' /> */}
+        <img src={Phone4} alt="mainPic" className='HTIimageClass' />
     </div>
     <div className='HTITextContainer'>
         <div className='HTITitleOFIntro'>

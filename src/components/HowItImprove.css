@@ -5,7 +5,7 @@
 
 
 .HTIContainer {
-    
+
     margin: 24px;
     background-color: #1F2D79;
     border-radius: 15px;
@@ -24,22 +24,72 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1.5fr 1fr;    
     }
+    .HTITextContainer{
+        
+      margin: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+  
+      color: aliceblue;
+      padding: 24px;
+  }
+  .HTITextContainer h1{
+      font-size: 2rem;
+      margin: 0px;
+  
+  }
+  .HTITextContainer h4{
+      
+      padding: 0px;
+      margin: 8px;
+      font-size: 1.2rem;
+      font-weight: 300;
+  }
+  .HTITextContainer p{
+      padding: 8px;
+  
+      margin: 0;
+  }  
+  .HTITitleOFIntro{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  .HTIListTiles{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-bottom: 8px;
+  }
+  .HTIListTilesText{
+      margin: 0;
+      padding-left: 8px;
+  }
+  .HTIImageContainer{
+    position: relative;
+    height: 30vh;
+  }
+  .HTIimageClass{
+    position: absolute;
+    bottom: -5vh;
+    right: 20%;
+    width: 60vw;
+    object-fit: fill;
+  }
   }
   
   /* Media query for desktop devices (min-width: 769px) */
   @media (min-width: 769px) {
     .HTIContainer {
-      width: 100%; /* Set width to 100% of the viewport width for desktop mode */
+       /* Set width to 100% of the viewport width for desktop mode */
       height: 100vh; /* Set height to 100% of the viewport height for desktop mode */
       display: grid;
       
       grid-template-columns: 0.5fr 1fr;
-    }
-    
-  
-    
-      
-    
+    }  
       .HTITextContainer{
         
         margin: 24px;
@@ -63,34 +113,37 @@
         font-size: 1.2rem;
         font-weight: 300;
     }
-    
     .HTITextContainer p{
         padding: 8px;
     
         margin: 0;
-    }
-    
-   
-      
-
+    }  
     .HTITitleOFIntro{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
     }
-
     .HTIListTiles{
         display: flex;
         justify-content: start;
         align-items: center;
         margin-bottom: 8px;
     }
-
     .HTIListTilesText{
         margin: 0;
         padding-left: 8px;
 
+    }
+    .HTIImageContainer{
+      position: relative;
+    }
+    .HTIimageClass{
+      position: absolute;
+      top: 50px;
+      right: 5%;
+      width: 30vw;
+      object-fit: fill;
     }
 
   }

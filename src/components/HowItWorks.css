@@ -17,27 +17,72 @@
   /* Media query for mobile devices (max-width: 768px) */
   @media (max-width: 768px) {
     .HTWContainer {
-      height: 160vh; /* Set height to 200% of the viewport height for mobile mode */
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1.5fr 1fr;    
+      height: 110vh; /* Set height to 200% of the viewport height for mobile mode */
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+          
     }
+    .HTWTextContainer{
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      color: aliceblue;
+      padding: 24px;
+  }
+  .HTWTextContainer h1{
+      font-size: 3rem;
+      margin: 0px;
+  
+  }
+  .HTWContent{
+      display: flex;
+      flex-direction: column;
+  }
+  .HTWTitle{
+    font-size: 1.5rem;
+    font-family: 'HelveticaBold';
+  }
+  .HTWSubTitle{
+    font-size: 1rem;
+    font-family: 'HelveticaBold';
+    
+  }
+  .HTWImageContainer{
+    position: relative;
+    height: 40vh;
+  }
+  .HTWimageClass{
+    position: absolute;
+    
+    bottom: -10px;
+    left: -100px;
+    width: 60vw;
+    object-fit: fill;
+  }
+  .HTWimageClass2{
+    position: absolute;
+    bottom: 80%;
+    right: 50%;
+    width: 50px;
+    object-fit: fill;
+    z-index: 5;
+  }
   }
   
   /* Media query for desktop devices (min-width: 769px) */
   @media (min-width: 769px) {
     .HTWContainer {
-      width: 100%; /* Set width to 100% of the viewport width for desktop mode */
+       /* Set width to 100% of the viewport width for desktop mode */
       height: 80vh; /* Set height to 100% of the viewport height for desktop mode */
       display: grid;
       
       grid-template-columns: 1fr 1fr;
-    }
-    
-  
-    
-      
-    
+    }    
       .HTWTextContainer{
         
         margin: 24px;
@@ -54,32 +99,22 @@
         margin: 0px;
     
     }
-    
-    
-    
-   
-      
-
     .HTWContent{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
     .HTWTitle{
       font-size: 1.5rem;
       font-family: 'HelveticaBold';
     }
-
     .HTWSubTitle{
       font-size: 1rem;
       font-family: 'HelveticaBold';
       
     }
-
     .HTWImageContainer{
       position: relative;
     }
-
     .HTWimageClass{
       position: absolute;
       bottom: -50px;
